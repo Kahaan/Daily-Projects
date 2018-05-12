@@ -1,0 +1,145 @@
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from <top (required)> at /Users/appacademy/Desktop/app-academy/curriculum/html-css/projects/aa_times/skeleton/config/environment.rb:5)
+DEPRECATION WARNING: Passing #original_exception is deprecated and has no effect. Exceptions will automatically capture the original exception. (called from require at /Users/appacademy/Desktop/app-academy/curriculum/html-css/projects/aa_times/skeleton/bin/rails:9)
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from require at /Users/appacademy/Desktop/app-academy/curriculum/html-css/projects/aa_times/skeleton/bin/rails:9)
+  [1m[35m (6.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (2.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-05-08 13:28:35.437337"], ["updated_at", "2018-05-08 13:28:35.437337"]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for ::1 at 2018-05-08 09:29:10 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /usr/local/var/rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activerecord-5.0.7/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.7ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.9ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 817ms (Views: 810.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components/dropdown.self-815016af6fab1d5b72abd319213bf62f0c42bab2c585d2e059543ae704a0d74c.js?body=1" for ::1 at 2018-05-08 09:29:11 -0400
+Started GET "/assets/components/modal.self-52188644dbb47def5ee35ae02e69eb567ca9b664472357a8a5789dd39032a265.js?body=1" for ::1 at 2018-05-08 09:29:11 -0400
+Started GET "/assets/components/sidebar.self-2a1277f850a6fa21e1a974ef5152f177ac05516477d5081d593bb137b3d6808b.js?body=1" for ::1 at 2018-05-08 09:29:11 -0400
+Started GET "/assets/application.self-f571b9db02bf4ed04c38a6a29072ac382f7d4f47db1fab9817aeadb0d8665235.js?body=1" for ::1 at 2018-05-08 09:29:11 -0400
+Started GET "/assets/application.self-b663423749731f7aefc12aab04903643ffbbfafb45fcfb66496adb852614caef.css?body=1" for ::1 at 2018-05-08 09:29:11 -0400
+Started GET "/" for ::1 at 2018-05-11 11:13:45 -0700
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /home/krp/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activerecord-5.0.7/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 757ms (Views: 748.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eab0a124513a076aeeac22f2af5de6fdfd215b43e44d890464636f2a098fe23f.css?body=1" for ::1 at 2018-05-11 11:13:46 -0700
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2018-05-11 11:13:46 -0700
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2018-05-11 11:13:46 -0700
+Started GET "/assets/application.self-f571b9db02bf4ed04c38a6a29072ac382f7d4f47db1fab9817aeadb0d8665235.js?body=1" for ::1 at 2018-05-11 11:13:46 -0700
+Started GET "/assets/components/modal.self-52188644dbb47def5ee35ae02e69eb567ca9b664472357a8a5789dd39032a265.js?body=1" for ::1 at 2018-05-11 11:13:46 -0700
+Started GET "/assets/components/sidebar.self-2a1277f850a6fa21e1a974ef5152f177ac05516477d5081d593bb137b3d6808b.js?body=1" for ::1 at 2018-05-11 11:13:46 -0700
+Started GET "/assets/components/dropdown.self-815016af6fab1d5b72abd319213bf62f0c42bab2c585d2e059543ae704a0d74c.js?body=1" for ::1 at 2018-05-11 11:13:46 -0700
+Started GET "/assets/application.self-eab0a124513a076aeeac22f2af5de6fdfd215b43e44d890464636f2a098fe23f.css?body=1&livereload=1526063159467" for ::1 at 2018-05-11 11:25:59 -0700
+Started GET "/assets/application.self-eab0a124513a076aeeac22f2af5de6fdfd215b43e44d890464636f2a098fe23f.css?body=1&livereload=1526063159469" for ::1 at 2018-05-11 11:25:59 -0700
+Started GET "/assets/application.self-eab0a124513a076aeeac22f2af5de6fdfd215b43e44d890464636f2a098fe23f.css?body=1&livereload=1526067164778" for ::1 at 2018-05-11 12:32:44 -0700
+Started GET "/assets/application.self-eab0a124513a076aeeac22f2af5de6fdfd215b43e44d890464636f2a098fe23f.css?body=1&livereload=1526067164780" for ::1 at 2018-05-11 12:32:44 -0700
+Started GET "/assets/application.self-eab0a124513a076aeeac22f2af5de6fdfd215b43e44d890464636f2a098fe23f.css?body=1&livereload=1526067483143" for ::1 at 2018-05-11 12:38:03 -0700
+Started GET "/assets/application.self-eab0a124513a076aeeac22f2af5de6fdfd215b43e44d890464636f2a098fe23f.css?body=1&livereload=1526067483145" for ::1 at 2018-05-11 12:38:03 -0700
+Started GET "/assets/application.self-eab0a124513a076aeeac22f2af5de6fdfd215b43e44d890464636f2a098fe23f.css?body=1&livereload=1526067805646" for ::1 at 2018-05-11 12:43:25 -0700
+Started GET "/assets/application.self-eab0a124513a076aeeac22f2af5de6fdfd215b43e44d890464636f2a098fe23f.css?body=1&livereload=1526067805649" for ::1 at 2018-05-11 12:43:25 -0700
+Started GET "/assets/application.self-eab0a124513a076aeeac22f2af5de6fdfd215b43e44d890464636f2a098fe23f.css?body=1&livereload=1526067844516" for ::1 at 2018-05-11 12:44:04 -0700
+Started GET "/assets/application.self-eab0a124513a076aeeac22f2af5de6fdfd215b43e44d890464636f2a098fe23f.css?body=1&livereload=1526067844518" for ::1 at 2018-05-11 12:44:04 -0700
+Started GET "/assets/application.self-eab0a124513a076aeeac22f2af5de6fdfd215b43e44d890464636f2a098fe23f.css?body=1&livereload=1526067892575" for ::1 at 2018-05-11 12:44:52 -0700
+Started GET "/assets/application.self-eab0a124513a076aeeac22f2af5de6fdfd215b43e44d890464636f2a098fe23f.css?body=1&livereload=1526067892578" for ::1 at 2018-05-11 12:44:52 -0700
+Started GET "/assets/application.self-eab0a124513a076aeeac22f2af5de6fdfd215b43e44d890464636f2a098fe23f.css?body=1&livereload=1526067930000" for ::1 at 2018-05-11 12:45:30 -0700
+Started GET "/assets/application.self-eab0a124513a076aeeac22f2af5de6fdfd215b43e44d890464636f2a098fe23f.css?body=1&livereload=1526067930006" for ::1 at 2018-05-11 12:45:30 -0700
+Started GET "/assets/application.self-eab0a124513a076aeeac22f2af5de6fdfd215b43e44d890464636f2a098fe23f.css?body=1&livereload=1526068047204" for ::1 at 2018-05-11 12:47:27 -0700
+Started GET "/assets/application.self-eab0a124513a076aeeac22f2af5de6fdfd215b43e44d890464636f2a098fe23f.css?body=1&livereload=1526068047206" for ::1 at 2018-05-11 12:47:27 -0700
+Started GET "/assets/application.self-eab0a124513a076aeeac22f2af5de6fdfd215b43e44d890464636f2a098fe23f.css?body=1&livereload=1526068069382" for ::1 at 2018-05-11 12:47:49 -0700
+Started GET "/assets/application.self-eab0a124513a076aeeac22f2af5de6fdfd215b43e44d890464636f2a098fe23f.css?body=1&livereload=1526068069385" for ::1 at 2018-05-11 12:47:49 -0700
+Started GET "/assets/application.self-eab0a124513a076aeeac22f2af5de6fdfd215b43e44d890464636f2a098fe23f.css?body=1&livereload=1526068102744" for ::1 at 2018-05-11 12:48:22 -0700
+Started GET "/assets/application.self-eab0a124513a076aeeac22f2af5de6fdfd215b43e44d890464636f2a098fe23f.css?body=1&livereload=1526068102745" for ::1 at 2018-05-11 12:48:22 -0700
+Started GET "/" for ::1 at 2018-05-11 15:26:43 -0700
+
+LoadError - cannot load such file -- /home/krp/Downloads/skeleton/config/routes.rb:
+
+Started POST "/__better_errors/0192e23c9fdbe5f9/variables" for ::1 at 2018-05-11 15:26:44 -0700
+Started GET "/" for ::1 at 2018-05-11 15:27:50 -0700
+
+Errno::ENOENT - No such file or directory @ dir_s_mkdir - /home/krp/Downloads/skeleton/db:
+
+Started POST "/__better_errors/e694664ccb6167bb/variables" for ::1 at 2018-05-11 15:27:50 -0700
+Started GET "/favicon.ico" for ::1 at 2018-05-11 15:27:51 -0700
+
+Errno::ENOENT - No such file or directory @ dir_s_mkdir - /home/krp/Downloads/skeleton/db:
+
+Started GET "/" for ::1 at 2018-05-11 15:27:51 -0700
+
+Errno::ENOENT - No such file or directory @ dir_s_mkdir - /home/krp/Downloads/skeleton/db:
+
+Started POST "/__better_errors/07f8c3c496f78e53/variables" for ::1 at 2018-05-11 15:27:51 -0700
+Started GET "/favicon.ico" for ::1 at 2018-05-11 15:27:51 -0700
+
+Errno::ENOENT - No such file or directory @ dir_s_mkdir - /home/krp/Downloads/skeleton/db:
+
+Started GET "/" for ::1 at 2018-05-11 15:27:52 -0700
+
+Errno::ENOENT - No such file or directory @ dir_s_mkdir - /home/krp/Downloads/skeleton/db:
+
+Started POST "/__better_errors/174f503fa9572790/variables" for ::1 at 2018-05-11 15:27:52 -0700
+Started GET "/favicon.ico" for ::1 at 2018-05-11 15:27:53 -0700
+
+Errno::ENOENT - No such file or directory @ dir_s_mkdir - /home/krp/Downloads/skeleton/db:
+
+Started GET "/" for ::1 at 2018-05-11 15:27:53 -0700
+
+Errno::ENOENT - No such file or directory @ dir_s_mkdir - /home/krp/Downloads/skeleton/db:
+
+Started POST "/__better_errors/8f8d76cb94d0d61a/variables" for ::1 at 2018-05-11 15:27:53 -0700
+Started GET "/" for ::1 at 2018-05-11 15:27:53 -0700
+
+Errno::ENOENT - No such file or directory @ dir_s_mkdir - /home/krp/Downloads/skeleton/db:
+
+Started GET "/" for ::1 at 2018-05-11 15:27:53 -0700
+
+Errno::ENOENT - No such file or directory @ dir_s_mkdir - /home/krp/Downloads/skeleton/db:
+
+Started GET "/" for ::1 at 2018-05-11 15:27:54 -0700
+
+Errno::ENOENT - No such file or directory @ dir_s_mkdir - /home/krp/Downloads/skeleton/db:
+
+Started POST "/__better_errors/1b75d1c313103a9a/variables" for ::1 at 2018-05-11 15:27:54 -0700
+Started GET "/" for ::1 at 2018-05-11 15:27:54 -0700
+
+Errno::ENOENT - No such file or directory @ dir_s_mkdir - /home/krp/Downloads/skeleton/db:
+
+Started GET "/" for ::1 at 2018-05-11 15:27:54 -0700
+
+Errno::ENOENT - No such file or directory @ dir_s_mkdir - /home/krp/Downloads/skeleton/db:
+
+Started POST "/__better_errors/4d4c0424a1c3f950/variables" for ::1 at 2018-05-11 15:27:54 -0700
+Started GET "/" for ::1 at 2018-05-11 15:27:54 -0700
+
+Errno::ENOENT - No such file or directory @ dir_s_mkdir - /home/krp/Downloads/skeleton/db:
+
+Started POST "/__better_errors/93c61fe1ae0eb931/variables" for ::1 at 2018-05-11 15:27:55 -0700
+Started GET "/favicon.ico" for ::1 at 2018-05-11 15:27:55 -0700
+
+Errno::ENOENT - No such file or directory @ dir_s_mkdir - /home/krp/Downloads/skeleton/db:
+
+Started GET "/" for ::1 at 2018-05-11 15:45:46 -0700
+
+Errno::ENOENT - No such file or directory @ dir_s_mkdir - /home/krp/Downloads/skeleton/db:
+
+Started POST "/__better_errors/55e3df0d2317fe93/variables" for ::1 at 2018-05-11 15:45:47 -0700
+Started GET "/favicon.ico" for ::1 at 2018-05-11 15:45:47 -0700
+
+Errno::ENOENT - No such file or directory @ dir_s_mkdir - /home/krp/Downloads/skeleton/db:
+
