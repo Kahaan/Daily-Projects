@@ -93,6 +93,11 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+const FollowToggle = ('./follow_toggle.js')
+
+$(function(){
+  $('button.follow-toggle').each((i,btn) => new FollowToggle(btn,{}))
+})
 
 
 /***/ })
